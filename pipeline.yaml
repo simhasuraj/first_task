@@ -5,7 +5,7 @@ metadata:
 spec:
   params: 
   tasks:
-    - name: first_task
+    - name: sample_task
       taskRef:
-        name: first_task
+        name: sample_task
       params:
