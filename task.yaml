@@ -1,12 +1,12 @@
 apiVersion: tekton.dev/v1beta1
 kind: Task
 metadata:
-  name: sample-task
+  name: first-task
 spec:
   params:
   resources:
   steps:
-    - name: sample-python-task
+    - name: first-task
       image: python      
       script: |
         #!/usr/bin/env python3
