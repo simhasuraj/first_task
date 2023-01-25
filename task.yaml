@@ -6,7 +6,7 @@ spec:
   params:
   resources:
   steps:
-    - name: my_first_task
+    - name: first_task
       image: python      
       script: |
         #!/usr/bin/env python3
