@@ -7,5 +7,5 @@ spec:
   tasks:
     - name: first_task
       taskRef:
-        name: sample-task
+        name: first_task
       params:
