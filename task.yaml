@@ -1,13 +1,13 @@
 apiVersion: tekton.dev/v1beta1
 kind: Task
 metadata:
-  name: sample-task
+  name: first_task
 spec:
   params:
   resources:
   steps:
-    - name: sample-python-task
+    - name: my_first_task
       image: python      
       script: |
         #!/usr/bin/env python3
-        print("My first task!!!")
+        print("This is my first task!!!")
